@@ -21,14 +21,14 @@ public class Ejercicio02 {
                 double baseTriangulo = teclado.nextDouble();
                 System.out.print("Ingresa la altura: ");
                 double alturaTriangulo = teclado.nextDouble();
-                System.out.println("El área del triángulo es: " + obtenerAreaTriangulo(baseTriangulo, alturaTriangulo));
+                System.out.println("El area del triangulo es: " + obtenerAreaTriangulo(baseTriangulo, alturaTriangulo));
                 break;
             case 3:
                 System.out.print("Ingresa la base: ");
                 double baseRectangulo = teclado.nextDouble();
                 System.out.print("Ingresa la altura: ");
                 double alturaRectangulo = teclado.nextDouble();
-                System.out.println("El área del rectángulo es: " + obtenerAreaRectangulo(baseRectangulo, alturaRectangulo));
+                System.out.println("El area del rectangulo es: " + obtenerAreaRectangulo(baseRectangulo, alturaRectangulo));
                 break;
         }
     }
@@ -42,3 +42,20 @@ public class Ejercicio02 {
         return base * altura;
     }
 }
+/***
+ * QUE DESEA CALCULAR
+(1) area del cuadrado
+(2) area del triangulo
+(3) area del rectangulo
+1
+Ingresa el lado : 2
+El area es: 4.0
+* QUE DESEA CALCULAR
+(1) area del cuadrado
+(2) area del triangulo
+(3) area del rectangulo
+2
+Ingresa la base : 3
+Ingresa la altura: 5
+El area del triangulo es: 7.5
+ */

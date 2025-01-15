@@ -55,7 +55,7 @@ public class Ejercicio01 {
                 if (matriz[i][j] % 2 != 0) {
                     System.out.println(matriz[i][j] + " ");
                 }
-                System.out.println("");
+             
             }
          
         }
@@ -71,3 +71,17 @@ public class Ejercicio01 {
         return sumaMatriz /(matriz.length * matriz [0].length);
     }
 }
+/***
+ * Deme Limite de FIlas y Limite de columnas
+2 2
+2 2 
+6 3 
+Elementos pares de la matriz
+2 
+2 
+6 
+
+Elementos impares de la matriz
+3 
+El promedio de la matriz es: 3.0
+ */
